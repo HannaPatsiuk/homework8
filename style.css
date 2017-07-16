@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.general{
+	background: #ff9800;
+}
+.london{
+	float: left;
+	
+}
+.paris{
+	float: left;
+}
+.tokyo{
+	float: left;
+	
+}
+.block{
+	width: 30%;
+	padding: 5px;
+}
+
+.general{
+	padding: 10px 20px;
+}
+.general p{
+	padding-top: 5px;
+}
+.cities{
+	margin: 20px 20px 0;
+
+}
+.cities p{
+	margin-top: 20px;
+}
+.cities::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+@media screen and (max-width: 600px) {
+	.block{
+		width: 100%;
+
+	}
+}
