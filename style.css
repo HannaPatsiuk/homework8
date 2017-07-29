@@ -20,7 +20,8 @@
 }
 .block{
 	width: 30%;
-	padding: 5px;
+	padding: 15px;
+
 }
 
 .general{
@@ -33,17 +34,42 @@
 	margin: 20px 20px 0;
 
 }
+
 .cities p{
-	margin-top: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.description{
+	min-height: 80px;
+	overflow: hidden;	
+}
+img{
+	height: 190px;
+	width: 285px;
+}
+.ta-c{
+	text-align: center;
+}
+.city-name{
+		min-height: 50px;
 }
 .cities::after{
 	content: "";
 	display: block;
 	clear: both;
 }
+
 @media screen and (max-width: 600px) {
 	.block{
 		width: 100%;
 
+	}
+}
+@media screen and (max-width: 960px) {
+	.london, .paris{
+		width: 50%;
+	}
+	.tokyo{
+		width: 100%;
 	}
 }
